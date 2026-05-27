@@ -2,7 +2,7 @@
 def calcular_projeto(horas, taxa, desconto, imposto):
     subtotal = horas * taxa
     if horas >= 20:
-        subtotal -= subtotal * desconto # atualizei aqui
+        subtotal -= subtotal * desconto 
     valor_imposto = subtotal * imposto
     total = subtotal + imposto
     return subtotal, valor_imposto, total
